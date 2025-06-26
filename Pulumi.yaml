@@ -1,3 +1,4 @@
 name: pulumi-sample
-runtime: python
-description: IAM user creation sample
+runtime: nodejs
+description: A minimal Pulumi TypeScript project
+main: bin
