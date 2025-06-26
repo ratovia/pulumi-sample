@@ -1,4 +1,4 @@
 name: pulumi-sample
 runtime: nodejs
-description: A minimal Pulumi TypeScript project
+description: A Pulumi TypeScript project for AWS resources
 main: bin
