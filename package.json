@@ -1,0 +1,9 @@
+{
+  "name": "pulumi-sample",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0"
+  }
+}

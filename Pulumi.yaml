@@ -1,0 +1,4 @@
+name: pulumi-sample
+runtime: nodejs
+description: A minimal Pulumi TypeScript project
+main: bin
