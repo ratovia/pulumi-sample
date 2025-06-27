@@ -12,5 +12,14 @@ npm install
 pulumi up
 ```
 
+### Makefile でのビルドとプレビュー
+
+以下のコマンドで TypeScript のコンパイルと `pulumi preview` を実行できます。
+
+```bash
+make preview
+```
+
+
 ## Development Guidelines
 See [AGENTS.md](AGENTS.md) for coding style, testing requirements, and documentation policy.
