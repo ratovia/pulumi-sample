@@ -1,1 +1,12 @@
 encryptionsalt: v1:MzclE5fJdiQ=:v1:w+1LP/5M6sBpPAQ0:dUSOnU5wobt9sJiCBxD7W2sS78G08w==
+config:
+  aws:accessKey: test
+  aws:endpoints:
+  - iam: http://localhost:4566
+    s3: http://localhost:4566
+  aws:region: us-east-1
+  aws:s3UsePathStyle: "true"
+  aws:secretKey:
+    secure: v1:40i6VcK3MToHZkXs:cw9XglZIq0fn9bpfpUKjq3PHn0M=
+  aws:skipCredentialsValidation: "true"
+  aws:skipMetadataApiCheck: "true"
