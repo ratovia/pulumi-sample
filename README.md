@@ -10,3 +10,6 @@ Install the Node.js dependencies and run `pulumi up`.
 npm install
 pulumi up
 ```
+
+## Development Guidelines
+See [AGENTS.md](AGENTS.md) for coding style, testing requirements, and documentation policy.
