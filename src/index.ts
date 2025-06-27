@@ -40,3 +40,12 @@ const policy = new aws.iam.RolePolicy("s3-access-policy", {
 export const userName = user.name;
 export const bucketName = bucket.bucket;
 export const roleName = role.name;
+
+// Create an ECR repository with image scanning on push enabled
+const repository = new aws.ecr.Repository("sample-ecr-repo", {
+    imageScanningConfiguration: {
+        scanOnPush: true,
+    },
+});
+
+export const repositoryName = repository.name;

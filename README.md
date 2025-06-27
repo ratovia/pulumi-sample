@@ -1,7 +1,7 @@
 # pulumi-sample
 
 This sample Pulumi program uses the Node.js runtime to deploy AWS resources.
-It now provisions an IAM role that can perform `s3:GetObject` and `s3:PutObject` on the sample bucket.
+It now provisions an IAM role that can perform `s3:GetObject` and `s3:PutObject` on the sample bucket, and also creates an Amazon ECR repository.
 
 ## Deploying
 
