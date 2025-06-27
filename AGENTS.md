@@ -6,7 +6,7 @@
 - Node.js (TypeScript) で実装します。
 
 ## 2. テストと品質保証
-- `pulumi preview` でエラーが出ないこと。
+- `PULUMI_CONFIG_PASSPHRASE="" pulumi preview` でエラーが出ないこと。
 - `npx tsc` でエラーが起きないこと。
 
 ## 3. ブランチ命名規則
